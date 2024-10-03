@@ -1,0 +1,36 @@
+/* StaticSidebar.css */
+.sidebar-container {
+    width: 240px;
+    height: 100vh;
+    background-color: #000000; 
+    color: #FFFFFF; 
+    padding: 20px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+  }
+  
+  .sidebar-title {
+    margin-bottom: 20px;
+  }
+  
+  .search-bar {
+    background-color: #FFFFFF; 
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-item {
+    padding-left: 16px;
+    color: #FFFFFF; 
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-item:hover{
+    background-color: #000933;
+    transition: 0.5s all;
+    
+  }
+  

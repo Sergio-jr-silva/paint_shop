@@ -1,0 +1,39 @@
+.main{
+    margin-top: 68px;
+    height: 90vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: none;
+}
+
+h3{
+    color: #4e4d4d;
+    display: flex;
+    margin-top: -35rem;
+    margin-left: 52%;
+    font-size: 38px;
+}
+
+
+.btn{
+    margin-top: -37rem;
+    margin-left: 54%;
+    font-size: 18px;
+    background-color: #4e4d4d;
+    color: #fff;
+    border-radius: 20px; 
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #B0B0B0;
+    color: #000000;
+    transition: 0.5s all;
+  }
